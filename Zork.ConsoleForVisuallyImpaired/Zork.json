@@ -1,0 +1,103 @@
+﻿{
+  "WelcomeMessage": "Welcome to the Zork Interactive Strolling Experience!",
+  "InstructionsGuide": "Thank you for taking our tour. In the game you will be able to interact with the environment by physically moving through the world using directions: north, south, east, west, up and down. You will also be able to pick up items in the different locations so be sure to explore. Items can be picked up with the command take, then the item name that follows. Some items can also be used with the command word use, then the item name that follows. Lastly you can drop items with the command drop, then the item name that follows, so be sure not to lose them in the world! You may use the command inventory to check current inventory status. Now let's get to it!",
+  "StartWorldIntroduction": "You have entered a world of warm sunny skies and soft blowing wind.",
+  "World": {
+    "StartingLocation": "West of House",
+    "Rooms": [
+      {
+        "Name": "West of House",
+        "Description": "There is an open field west of a farm house, with a boarded front door.",
+        "Neighbors": {
+          "SOUTH": "South of House",
+          "NORTH": "North of House"
+        },
+        "Items": [
+          {
+            "Name": "Book",
+            "Description": "On the ground you notice a dusty book with I Can't See, But... I Can Imagine written on the cover.",
+            "Use": "I can't See, But... I can Imagine by Patricia Bennett Wilson. Patty's Grandmother is blind. But that doesn't stop her from spending time with her grandchildren and writing songs for them. Once Patty asked \"Grammie, what is it like NOT to be able to see?\"Grandmother said."
+          }
+        ]
+      },
+      {
+        "Name": "North of House",
+        "Description": "You are facing the north side of a house.",
+        "Neighbors": {
+          "NORTH": "Forest Path",
+          "EAST": "Behind House",
+          "WEST": "West of House"
+        },
+        "Items": [
+          {
+            "Name": "Blueberries",
+            "Description": "You see a picnic table with a basket of blueberries in it.",
+            "Use": "Chomp! Sweet and yummy blueberries!"
+          }
+        ]
+      },
+      {
+        "Name": "Behind House",
+        "Description": "You are behind the white house.",
+        "Neighbors": {
+          "NORTH": "North of House",
+          "SOUTH": "South of House",
+          "EAST": "Clearing"
+        },
+        "Items": [
+          {
+            "Name": "Ball",
+            "Description": "There lays a shiny ball before you.",
+            "Use": "Boing! Boing!"
+          }
+        ]
+      },
+      {
+        "Name": "South of House",
+        "Description": "You are facing the south side of a house. There is no door here, and all the windows are barred.",
+        "Neighbors": {
+          "EAST": "Behind House",
+          "WEST": "West of House"
+        },
+        "Items": []
+      },
+      {
+        "Name": "Forest Path",
+        "Description": "This is a large forest. There is a mighty tree that can be climbed.",
+        "Neighbors": {
+          "UP": "Up a Tree",
+          "SOUTH": "North of House"
+        },
+        "Items": [
+          {
+            "Name": "Blanket",
+            "Description": "The floor seems to have a fluffy blanket.",
+            "Use": "It feels as though it was just taken out the dryer."
+          }
+        ]
+      },
+      {
+        "Name": "Up a Tree",
+        "Description": "You are about 10 feet above the ground nestled among some large prickly branches.The nearest branch above you is above your reach. On the branch is a small birds nest.",
+        "Neighbors": {
+          "DOWN": "Forest Path"
+        },
+        "Items": [
+          {
+            "Name": "Bird",
+            "Description": "You hear chirping coming from happy singing bird.",
+            "Use": "Chirp Chirp!"
+          }
+        ]
+      },
+      {
+        "Name": "Clearing",
+        "Description": "You are in a clearing, with a forest surrounding you on the west and south.",
+        "Neighbors": {
+          "WEST": "Behind House"
+        },
+        "Items": []
+      }
+    ]
+  }
+}

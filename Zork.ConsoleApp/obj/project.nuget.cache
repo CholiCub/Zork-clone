@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "nrVRfsb9bjBMwPcxi+55XyqPWa50QIMDYkx9ETsRXtX4xx3mqdHfhQlojKo8LhN5QvzZSe5prT/QKrDw16gS2A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Choli\\Desktop\\karen_backup\\karen\\dev\\Students\\CH18\\Karen.Flores\\TechDesign1\\Zork\\Zork.ConsoleApp\\Zork.ConsoleApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Choli\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\Choli\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Choli\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Choli\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\Choli\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.32\\microsoft.netcore.app.host.win-x64.3.1.32.nupkg.sha512"
+  ],
+  "logs": []
+}
